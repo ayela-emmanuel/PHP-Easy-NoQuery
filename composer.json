@@ -1,0 +1,19 @@
+{
+    "name": "lilwi/php-easy-no-query",
+    "description": "NoSql Filter and Sanitize files",
+    "authors": [
+        {
+            "name": "lilwizzi9",
+            "email": "lilwizzi9@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "files": ["./lib/Database/Connection.php"],
+        "psr-4": {
+            "Lib\\": "lib/"
+        }
+    }
+}
